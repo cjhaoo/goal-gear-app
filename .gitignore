@@ -1,0 +1,36 @@
+# Expo
+.expo/
+dist/
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.yarn/
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+build/
+.tsbuildinfo
+
+# Testing
+coverage/
+.jest_cache/
+
+# Local
+local.properties
+*.jks
+*.keystore
