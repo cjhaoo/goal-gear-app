@@ -1,6 +1,6 @@
 {
   "presets": [
-    ["babel-preset-react-native", { "disableImportExportTransform": true }],
+    ["module:metro-react-native-babel-preset", { "disableImportExportTransform": true }],
     ["@babel/preset-typescript"]
   ]
 }
